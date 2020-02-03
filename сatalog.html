@@ -28,27 +28,55 @@
       <span>по типу</span>
       <span>по названию</span>
     </div>
-    <div>
-      <p>Cетка</p>
-      <ul>
-        <li>Aдаптивная</li>
-        <li>Фиксированная</li>
-        <li>Резиновая</li>
-      </ul>
-    </div>
-    <div>
-      <p>Особенности:</p>
-      <ul>
-        <li>Cлайдер</li>
-        <li>Блок преимуществ</li>
-        <li>Новости</li>
-        <li>Галерея</li>
-        <li>Корзина</li>
-      </ul>
-    </div>
-    <div>
-      <a href="#">показать</a>
-    </div>
+    <section>
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <div>
+          <p>Cетка:</p>
+          <ul>
+            <li>
+              <input type="radio" name="adaptive" value="adaptive" id="adaptive" checked>
+              <label for="adaptive">Адаптивная</label>
+            </li>
+            <li>
+              <input type="radio" name="setka-group" value="setka-group" id="setka-group">
+              <label for="setka-group">Фиксированная</label>
+            </li>
+            <li>
+              <input type="radio" name="setka-group" value="setka-group" id="setka-group">
+              <label for="setka-group">Резиновая</label>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>Особенности:</p>
+          <ul>
+            <li>
+              <input type="checkbox" name="slaider" id="slider" checked>
+              <label for="slider">Слайдер</label>
+            </li>
+            <li>
+              <input type="checkbox" name="advantages" id="advantages">
+              <label for="advantages">Блок преимуществ</label>
+            </li>
+            <li>
+              <input type="checkbox" name="news" id="news" checked>
+              <label for="news">Новости</label>
+            </li>
+            <li>
+              <input type="checkbox" name="gallery" id="gallery">
+              <label for="gallery">Галлерея</label>
+            </li>
+            <li>
+              <input type="checkbox" name="basket" id="basket">
+              <label for="basket">Корзина</label>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a href="#">показать</a>
+        </div>
+      </form>
+    </section>
     <!--
     <h1>ФОТОГАЛЕРЕЯ</h1>-->
     <a href="#"><img src="img/img-sedona.jpg" width="15%" height="15%" alt="Добро пожаловать в Седону"></a>
@@ -59,6 +87,17 @@
     <a href="#"><img src="img/img-kvast.jpg" width="15%" height="15%" alt="Крафтовый квасс"></a>
   </main>
   <footer>
+    <h3>Напишите нам</h3>
+    <form action="https://echo.htmlacademy.ru/courses" method="post">
+      <p>Ваше имя:</p>
+      <textarea name="yourname" id="yourname-field" cols="25">Имя Фамилия</textarea>
+      <p>Ваш e-mail:</p>
+      <textarea name="emeil" id="emeil-field" cols="25">email@example.com</textarea>
+      <p>Текст письма:</p>
+      <textarea name="text" id="text-field" rows="5" cols="50">В свободной форме</textarea>
+      <br>
+      <input type="submit" value="Отправить">
+    </form>
     <div>
       <ul>
         <li><a href="#">Вконтакте</a></li>
@@ -74,5 +113,3 @@
 </body>
 
 </html>
-
-
