@@ -4,12 +4,15 @@
 <head>
   <meta charset="utf-8">
   <title>Mагазин готовых шаблонов</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <img src="img/nerds-logo.svg" width="100" height="50" alt="Нёрдс">
-    <nav>
+    <nav class="main-navigation">
       <ul>
         <li><a href="stuio.html">Cтудия</a></li>
         <li><a href="customers.html">Клиенты</a></li>
@@ -30,7 +33,7 @@
     </div>
     <section>
       <form method="get" action="https://echo.htmlacademy.ru">
-        <div>
+        <div class="menu">
           <p>Cетка:</p>
           <ul>
             <li>
@@ -47,7 +50,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="special">
           <p>Особенности:</p>
           <ul>
             <li>
@@ -90,7 +93,7 @@
     <h3>Напишите нам</h3>
     <form action="https://echo.htmlacademy.ru/courses" method="post">
       <label> Ваше имя:
-        <input type="text" name="your name">
+        <input type="text" name="yourname">
       </label>
       <label> Ваш e-mail:
         <input type="text" name="email">
@@ -100,7 +103,7 @@
       <br>
       <input type="submit" value="Отправить">
     </form>
-    <div>
+    <div class="cocial">
       <ul>
         <li><a href="#">Вконтакте</a></li>
         <li><a href="#">Фейсбук</a></li>

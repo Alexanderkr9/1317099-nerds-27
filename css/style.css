@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Myriad Pro;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #535353;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  background-image: url("img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.header{
+  background-color:#eeeeee;
+}
+.main-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+    background-color: #ffffff;
+
+}
+.main-navigation ul{
+  list-style: none;
+}
+h1{
+  line-height: 55px;
+  color: black;
+}
+
+ .special ul {
+  list-style: none;
+}
+.menu ul{
+  list-style: none;
+  font-size: 16px;
+  color: #283136;
+}
+.discount{
+  font-size: 36px;
+  list-style: 36px;
+  color: #00000;
+}
+.social ul{
+  list-style: none;
+}
+
+
