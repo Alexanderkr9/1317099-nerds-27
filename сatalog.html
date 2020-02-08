@@ -19,22 +19,24 @@
         <li><a href="shop.html">Магазин</a></li>
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
-      <a href="basket.html">Корзина</a>
+      <a class="basket" href="basket.html">Корзина</a>
     </nav>
-    <h1>Магазин готовых шаблонов</h1>
+    <h1 class="main-title">Магазин готовых шаблонов</h1>
   </header>
   <main>
-    <div>
-      <span>cтоимость:</span>
-      <span>cортировать:</span>
+     <div>
+      <span class="menunav">cтоимость:</span>
+      <span class="sort">cортировать:</span>
+     </div>
+      <div class="select">
       <span>по цене</span>
       <span>по типу</span>
       <span>по названию</span>
     </div>
     <section>
-      <form method="get" action="https://echo.htmlacademy.ru">
+      <form class="form" method="get" action="https://echo.htmlacademy.ru">
         <div class="menu">
-          <p>Cетка:</p>
+          <p class="menunav">Cетка:</p>
           <ul>
             <li>
               <input type="radio" name="setka-group" value="adaptive" id="setkaadapt" checked>
@@ -51,7 +53,7 @@
           </ul>
         </div>
         <div class="special">
-          <p>Особенности:</p>
+          <p class="menunav">Особенности:</p>
           <ul>
             <li>
               <input type="checkbox" name="slaider" id="slider" checked>
@@ -76,7 +78,7 @@
           </ul>
         </div>
         <div>
-          <button type="submit">Показать</button>
+          <button class="button" type="submit">Показать</button>
         </div>
       </form>
     </section>
@@ -90,7 +92,7 @@
     <a href="#"><img src="img/img-kvast.jpg" width="15%" height="15%" alt="Крафтовый квасс"></a>
   </main>
   <footer>
-    <h3>Напишите нам</h3>
+    <!--<h3>Напишите нам</h3>
     <form action="https://echo.htmlacademy.ru/courses" method="post">
       <label> Ваше имя:
         <input type="text" name="yourname">
@@ -102,8 +104,8 @@
       <textarea name="text" id="text-field" rows="5" cols="50">В свободной форме</textarea>
       <br>
       <input type="submit" value="Отправить">
-    </form>
-    <div class="cocial">
+    </form>-->
+    <div class="social">
       <ul>
         <li><a href="#">Вконтакте</a></li>
         <li><a href="#">Фейсбук</a></li>
@@ -111,8 +113,8 @@
       </ul>
     </div>
     <div>
-      <p>Давайте дружить!</p>
-      <p>Cкидка 10% для друзей из социальных сетей</p>
+      <p class="letfriend">Давайте дружить, это выгодно!</p>
+      <p class="discount">Cкидка 10% для друзей из социальных сетей</p>
     </div>
   </footer>
 </body>
