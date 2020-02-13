@@ -11,7 +11,7 @@
 
 <body>
   <header class="header">
-    <img src="img/nerds-logo.svg" width="100" height="50" alt="Нёрдс">
+    <img class="logo" src="img/nerds-logo.svg" width="100" height="50" alt="Нёрдс">
     <nav class="main-navigation">
       <ul>
         <li><a href="catalog.html">Cтудия</a></li>
@@ -19,12 +19,12 @@
         <li><a href="catalog.html">Магазин</a></li>
         <li><a href="catalog.html">Контакты</a></li>
       </ul>
+      </nav>
       <a class="basket" href="basket.html">Корзина</a>
-    </nav>
-    <h1 class="first-title">Магазин готовых шаблонов</h1>
-  </header>
-  <main>
-     <div>
+      <h1 class="first-title">Магазин готовых шаблонов</h1>
+    </header>
+  <main class="main-catalog">
+     <div class="left-form-header">
       <span class="menunav">cтоимость:</span>
       <span class="sort">cортировать:</span>
      </div>
@@ -33,7 +33,7 @@
       <span>по типу</span>
       <span>по названию</span>
     </div>
-    <section>
+    <section class="catalog-form">
       <form class="form" method="get" action="https://echo.htmlacademy.ru">
         <div class="menu">
           <p class="menunav">Cетка:</p>
@@ -84,14 +84,16 @@
     </section>
     <!--
     <h1>ФОТОГАЛЕРЕЯ</h1>-->
-    <a href="#"><img src="img/img-sedona.jpg" width="15%" height="15%" alt="Добро пожаловать в Седону"></a>
-    <a href="#"><img src="img/img-pink.jpg" width="15%" height=15% alt="Розовый"></a>
-    <a href="#"><img src="img/img-barbershop.jpg" width="15%" height="15%" alt="Барбершоп"></a>
-    <a href="#"><img src="img/img-mishka.jpg" width="15%" height="15%" alt="Детские игрушки"></a>
-    <a href="#"><img src="img/img-aplus.jpg" width=15% height=15% alt="Формы обучения"></a>
-    <a href="#"><img src="img/img-kvast.jpg" width="15%" height="15%" alt="Крафтовый квасс"></a>
+     <div class="photos">
+    <a href="#"><img src="img/img-sedona.jpg" width="360px" height="625px" alt="Добро пожаловать в Седону"></a>
+    <a href="#"><img src="img/img-pink.jpg" width="360px" height="625px" alt="Розовый"></a>
+    <a href="#"><img src="img/img-barbershop.jpg" width="360px" height="625px" alt="Барбершоп"></a>
+    <a href="#"><img src="img/img-mishka.jpg" width="360px" height="625px" alt="Детские игрушки"></a>
+    <a href="#"><img src="img/img-aplus.jpg" width="360px"height="625px" alt="Формы обучения"></a>
+    <a href="#"><img src="img/img-kvast.jpg" width="360px" height="625px" alt="Крафтовый квасс"></a>
+    </div>
   </main>
-  <footer><!--
+  <footer class="footer"><!--
     <h3>Напишите нам</h3>
     <form action="https://echo.htmlacademy.ru/courses" method="post">
       <label> Ваше имя:

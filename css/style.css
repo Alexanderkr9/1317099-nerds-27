@@ -11,8 +11,26 @@ body{
   background-position: top center;
   background-repeat: no-repeat;
 }
+body>*{
+  padding:0 calc((100% - 1160px) / 2);
+}
 .header{
   background-color:#eeeeee;
+  margin-bottom: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+
+
+}
+.header .logo{
+  width: 160px;
+  height: 67px;
+  display: flex;
+  margin-left: 140px;
+  margin: 0;
+  padding: 0;
 }
 .main-navigation a {
     font-size: 16px;
@@ -24,27 +42,43 @@ body{
     text-transform: uppercase;
 
 }
+
 .main-navigation ul{
+  width: 797px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   list-style: none;
   color: #000000;
+
 }
 .basket{
   font-size: 10,15px;
   font-weight: normal;
   line-height: 10,15px;
   color: #000000;
+  display: inline;
+  text-align: right;
+
+
+
+
 }
-.first-title {
+ .header .first-title {
   font-size: 55px;
   font-weight: normal;
   line-height: 55px;
   color: #000000;
+  text-align: center;
+
 }
 .select{
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   color: #000000;
+
 }
 .sort{
   font-size: 18px;
@@ -52,6 +86,8 @@ body{
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
+  margin-left: 540px;
+
 }
 .menunav{
   font-size: 18px;
@@ -67,6 +103,8 @@ body{
   font-weight: normal;
   line-height: 20px;
   color:#283136;
+  display: flex;
+  flex-direction: column;
 }
 .button{
   font-size: 16px;
@@ -102,7 +140,9 @@ color:#444444;
 
 .social ul{
   list-style: none;
+  width: 400px;
 }
+
 
 
 .catalog .goods {
@@ -111,6 +151,8 @@ color:#444444;
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
 
 }
 .catalog .notes{
@@ -126,7 +168,7 @@ color:#444444;
   line-height: 18px;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: red;
+  background-color: #fb565a;
   text-decoration: none;
 }
 
@@ -136,7 +178,7 @@ color:#444444;
   line-height: 18px;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: green;
+  background-color: #00ca74;
   text-decoration: none;
  }
 
@@ -147,8 +189,34 @@ color:#444444;
   line-height: 18px;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: yellow;
+  background-color: #efc849;
   text-decoration: none;
 }
-
+ .photos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 760px;
+}
+.style{
+  display: flex;
+  justify-content: space-between;
+}
+.left-form-header{
+  display:flex;
+}
+.main-catalog{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.catalog-form{
+  width:260px;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.catalog{
+  width: 300px;
+}
 
